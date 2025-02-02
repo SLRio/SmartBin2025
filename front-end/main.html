@@ -23,7 +23,7 @@
     var ctx = document.getElementById('myChart').getContext('2d');
 
     // Fetch data from the server
-    fetch('http://localhost:5000/items')
+    fetch('https://smartbinserver.onrender.com/items')
       .then(response => response.json())
       .then(data => {
         // Prepare data for the chart
